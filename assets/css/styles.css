@@ -10,12 +10,12 @@ html {
 
 /* add space for fixed nav */
 main {
-    margin: 80px 0;
+    margin: 20px 0;
 }
 
-body {
+/* body {
     background-color: #d9dcd6;
-}
+} */
 
 /* HEADER */
 
@@ -39,20 +39,37 @@ body {
 
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav>li>a:hover {
-    color: #ffffff;
-}
-
-.navbar {
-    background: white;
-    border: none;
-}
-
+/* .navbar-default .navbar-nav>li>a:hover {
+    border-color: red;
+} */
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
     .navbar-header {
-        background-color: #4aaaa5;
+        background-color: #ffffff00;
     }
 }
+
+.navbar {
+    background: rgb(220, 87, 87);
+    border-color: red;
+}
+
+.jumbotron {
+    color: rgb(47, 194, 98);
+    border-style: dashed;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+
+}
+
+.col {
+    color: rgb(47, 194, 98);
+    border-style: dashed;
+    margin-left: 6px;
+    padding: 0px;
+
+}
+
 
 /* END NAV */
